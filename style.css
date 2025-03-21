@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 50px;
+    border: 2px solid #fff;
+    background-color: navy;
+    padding: 25px 100px 250px 250px;
+}
+
+img{
+    width: 500px;
+    border-radius: 10px;
+}
