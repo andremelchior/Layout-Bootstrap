@@ -4,18 +4,44 @@
     box-sizing: border-box;
 }
 
-.container{
+main{
+    margin-top: 50px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+
+
+}
+
+.subcontainer{
+    width: 65%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
     margin: 50px;
     border: 2px solid #fff;
     background-color: navy;
-    padding: 25px 100px 250px 250px;
+    border-radius: 7px;
+    padding: 60px;
 }
 
 img{
     width: 500px;
     border-radius: 10px;
+}
+
+label{
+    color: white;
+}
+
+form{
+    width: 30%;
+}
+
+input, .col-md-4{
+    width: 100% !important;
+    margin-bottom: 15px;
 }
