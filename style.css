@@ -15,12 +15,12 @@ main{
 }
 
 .subcontainer{
-    width: 65%;
+    width: 75%;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 40px;
     margin: 50px;
     border: 2px solid #fff;
     background-color: navy;
@@ -29,19 +29,25 @@ main{
 }
 
 img{
-    width: 500px;
+    width: 650px;
+    height: 350px;
     border-radius: 10px;
 }
 
 label{
     color: white;
+    margin-bottom: 3px !important;
 }
 
 form{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .col-md-4{
     width: 100% !important;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
