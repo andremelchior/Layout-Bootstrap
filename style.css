@@ -41,7 +41,7 @@ form{
     width: 30%;
 }
 
-input, .col-md-4{
+.col-md-4{
     width: 100% !important;
     margin-bottom: 15px;
 }
